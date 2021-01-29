@@ -1,10 +1,10 @@
 (set-env!
   :resource-paths #{"src"}
-  :dependencies '[[cider/piggieback "0.3.9" :scope "test"]
-                  [weasel           "0.7.0" :scope "test"]
-                  [nrepl            "0.4.5" :scope "test"]])
+  :dependencies '[[cider/piggieback "0.5.2" :scope "test"]
+                  [weasel           "0.7.1" :scope "test"]
+                  [nrepl            "0.8.3" :scope "test"]])
 
-(def +version+ "0.4.0")
+(def +version+ "0.4.1-SNAPSHOT")
 
 (task-options!
   pom  {:project     'adzerk/boot-cljs-repl
